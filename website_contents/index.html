@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Energy Flexibility Certificates — Interactive Poster &amp; Showcase</title>
+  <meta name="description" content="Explore how Energy Flexibility Certificates (EFCs) make building electricity flexibility visible, measurable, and easy to compare across the energy network.">
+
+  <!-- Open Graph / Social Preview Metadata -->
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="en_GB">
+  <meta property="og:title" content="Energy Flexibility Certificates — Interactive Poster &amp; Showcase">
+  <meta property="og:description" content="Just as Energy Performance Certificates rate efficiency, Energy Flexibility Certificates show how easily buildings can shift electricity demand to cleaner, cheaper periods.">
+  <meta property="og:image" content="media/efc_poster.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Energy Flexibility Certificates — Interactive Poster &amp; Showcase">
+  <meta name="twitter:description" content="Explore the interactive poster, 10 self-contained modules, and an illustrative Energy Flexibility Certificate.">
+  <meta name="twitter:image" content="media/efc_poster.png">
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#poster">Skip to interactive poster</a>
+
+  <!-- Top Navigation Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="brand" aria-label="Energy Flexibility Certificates home">
+        <img src="media/UoR_logo.png" alt="University of Reading" class="brand-logo" width="337" height="123">
+        <span class="brand-divider" aria-hidden="true"></span>
+        <span class="brand-text">
+          <span class="brand-title">Energy Flexibility Certificates</span>
+          <span class="brand-subtitle">Interactive Showcase</span>
+        </span>
+      </a>
+
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#poster" class="nav-link">Full Poster</a>
+        <a href="#modules" class="nav-link">10 Modules</a>
+        <a href="#mock-certificate" class="nav-link">Mock Certificate</a>
+        <a href="#full-report" class="nav-link js-report-link" target="_blank" rel="noopener noreferrer">
+          Full Report
+          <svg class="icon-inline" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M7 13L13 7M13 7H8M13 7V12" stroke-linecap="round" stroke-linejoin="round"/>
+            <rect x="3" y="3" width="14" height="14" rx="2.5"/>
+          </svg>
+        </a>
+        <a href="#share" class="btn btn-primary btn-sm">Share</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <!-- Friendly Introduction Banner -->
+    <section class="hero" aria-labelledby="hero-heading">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Building Flexibility for a Net-Zero Grid</p>
+          <h1 id="hero-heading">Making building energy flexibility visible, measurable, and easy to compare</h1>
+          <p class="lead">
+            Most people are familiar with <strong>Energy Performance Certificates (EPCs)</strong>, which summarise how energy-efficient a building is.
+            <strong>Energy Flexibility Certificates (EFCs)</strong> apply the same clear idea to electricity flexibility: showing how much—and how easily—a building can shift its power use to cheaper, lower-carbon times of day.
+          </p>
+          <div class="hero-actions">
+            <button type="button" class="btn btn-primary" id="start-tour-btn">
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+                <circle cx="9" cy="9" r="5.5"/>
+                <path d="M13.2 13.2L17 17" stroke-linecap="round"/>
+                <path d="M9 6.5V11.5M6.5 9H11.5" stroke-linecap="round"/>
+              </svg>
+              Start Guided Walkthrough (1 of 10)
+            </button>
+            <a href="#mock-certificate" class="btn btn-secondary">See the Mock Certificate</a>
+            <a href="media/efc_poster.png" download="Energy_Flexibility_Certificate_Poster.png" class="btn btn-ghost">
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+                <path d="M10 3.5V13M10 13L6.5 9.5M10 13L13.5 9.5" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M4 16.5H16" stroke-linecap="round"/>
+              </svg>
+              Download Full Poster
+            </a>
+          </div>
+        </div>
+
+        <aside class="hero-guide-card" aria-label="How to explore this showcase">
+          <h2 class="guide-card-title">How to explore</h2>
+          <ul class="guide-list">
+            <li>
+              <span class="guide-badge" aria-hidden="true">1</span>
+              <div>
+                <strong>View the whole picture</strong>
+                <p>See how all ten building blocks fit together on the full poster below.</p>
+              </div>
+            </li>
+            <li>
+              <span class="guide-badge" aria-hidden="true">2</span>
+              <div>
+                <strong>Click any section to zoom in</strong>
+                <p>Open self-contained graphics for each section and step through with your arrow keys.</p>
+              </div>
+            </li>
+            <li>
+              <span class="guide-badge" aria-hidden="true">3</span>
+              <div>
+                <strong>Inspect a 'real-world' certificate</strong>
+                <p>Scroll down to explore an illustrative Demand Flexibility Certificate for a typical building.</p>
+              </div>
+            </li>
+          </ul>
+        </aside>
+      </div>
+    </section>
+
+    <!-- Centrepiece: Interactive Full Poster -->
+    <section id="poster" class="poster-section" aria-labelledby="poster-heading">
+      <div class="container">
+        <div class="poster-toolbar">
+          <div class="poster-toolbar-info">
+            <h2 id="poster-heading" class="section-title-compact">The Complete Energy Flexibility Certificate Poster</h2>
+            <p class="toolbar-hint">Click or tap any section on the poster to open its high-resolution modular view.</p>
+          </div>
+
+          <div class="poster-toolbar-controls">
+            <button type="button" class="btn btn-outline btn-sm" id="toggle-guides-btn" aria-pressed="false">
+              <svg class="btn-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+                <rect x="2.5" y="3.5" width="6" height="5.5" rx="1"/>
+                <rect x="11.5" y="3.5" width="6" height="5.5" rx="1"/>
+                <rect x="2.5" y="11" width="6" height="5.5" rx="1"/>
+                <rect x="11.5" y="11" width="6" height="5.5" rx="1"/>
+              </svg>
+              <span id="toggle-guides-label">Show Section Outlines</span>
+            </button>
+
+            <a href="#full-report" class="btn btn-outline btn-sm js-report-link" target="_blank" rel="noopener noreferrer">
+              Full Report
+            </a>
+
+            <a href="media/efc_poster.png" download="Energy_Flexibility_Certificate_Poster.png" class="btn btn-outline btn-sm">
+              Download PNG (4.2 MB)
+            </a>
+          </div>
+        </div>
+
+        <!-- Interactive Poster Frame -->
+        <div class="poster-frame-wrapper">
+          <div class="poster-stage" id="poster-stage">
+            <img
+              src="media/efc_poster.png"
+              alt="Energy Flexibility Certificate full research poster from the University of Reading, organised into ten modular sections covering why flexibility matters, how building flexibility ratings are calculated for summer and winter, and the benefits across four core use cases."
+              width="9933"
+              height="7016"
+              class="poster-image"
+              decoding="async"
+            >
+            <div class="poster-hotspots" id="poster-hotspots" aria-label="Interactive poster sections">
+              <!-- Populated progressively by js/app.js for exact coordinate mapping -->
+            </div>
+          </div>
+        </div>
+
+        <p class="mobile-poster-note">
+          On a smaller screen? Tap any area of the poster above, or <a href="#modules">browse all 10 individual sections as cards below</a> for comfortable reading.
+        </p>
+      </div>
+    </section>
+
+    <!-- Mobile-Friendly & Accessible Module Browser -->
+    <section id="modules" class="modules-section" aria-labelledby="modules-heading">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <p class="eyebrow">Modular Breakdown</p>
+            <h2 id="modules-heading" class="section-title">Explore all 10 poster sections individually</h2>
+            <p class="section-subtitle">
+              Each part of the poster was designed to stand on its own. Select any module below to inspect the high-resolution chart, read a plain-English summary, or share a direct link to that section.
+            </p>
+          </div>
+        </div>
+
+        <div id="modules-container" class="modules-groups">
+          <!-- Grouped section cards rendered by js/app.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Mock Energy Flexibility Certificate Showcase -->
+    <section id="mock-certificate" class="certificate-section" aria-labelledby="certificate-heading">
+      <div class="container">
+        <div class="certificate-grid">
+          <!-- Left: Interactive Certificate Preview -->
+          <div class="certificate-preview-col">
+            <div class="certificate-card">
+              <button
+                type="button"
+                class="certificate-zoom-trigger"
+                id="open-certificate-btn"
+                aria-label="Zoom in on the illustrative Demand Flexibility Certificate"
+              >
+                <img
+                  src="media/mock_efc.jpg"
+                  alt="Illustrative Demand Flexibility Certificate showing a Summer Rating of C4, a Winter Rating of A3, heat pump with automated control, and benchmarks of A1 if newly built or D5 if typical of existing stock."
+                  width="1241"
+                  height="1755"
+                  loading="lazy"
+                  decoding="async"
+                  class="certificate-img"
+                >
+                <span class="certificate-zoom-pill">
+                  <svg class="btn-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.9" aria-hidden="true">
+                    <circle cx="9" cy="9" r="5.5"/>
+                    <path d="M13.2 13.2L17 17" stroke-linecap="round"/>
+                    <path d="M9 6.5V11.5M6.5 9H11.5" stroke-linecap="round"/>
+                  </svg>
+                  Click to inspect full size
+                </span>
+              </button>
+            </div>
+          </div>
+
+          <!-- Right: Friendly Explanation & Actions -->
+          <div class="certificate-info-col">
+            <p class="eyebrow">Illustrative Prototype</p>
+            <h2 id="certificate-heading" class="section-title">What could an Energy Flexibility Certificate look like in practice?</h2>
+            <p class="section-subtitle">
+              Borrowing the familiar, easy-to-scan layout of a UK Energy Performance Certificate, this mock <strong>Demand Flexibility Certificate</strong> shows how complex building physics and smart-tech data can be distilled into practical guidance for property owners, tenants, and grid planners.
+            </p>
+
+            <div class="callout-list">
+              <div class="callout-item">
+                <div class="callout-badges" aria-hidden="true">
+                  <span class="rating-chip rating-summer">Summer C4</span>
+                  <span class="rating-chip rating-winter">Winter A3</span>
+                </div>
+                <div>
+                  <h3>Separate Summer &amp; Winter Ratings</h3>
+                  <p>Heating, cooling, and occupancy patterns shift markedly across the year, so every building receives a paired seasonal rating rather than a single year-round average.</p>
+                </div>
+              </div>
+
+              <div class="callout-item">
+                <div class="callout-icon" aria-hidden="true">A–F · 1–6</div>
+                <div>
+                  <h3>Dual Score: How Much &amp; How Easily</h3>
+                  <p>Letters (<strong>A–F</strong>) show the <em>Nominal</em> size of demand that can be shifted, whilst numbers (<strong>1–6</strong>) show the <em>Quality</em>—how quickly, frequently, and reliably the building can respond.</p>
+                </div>
+              </div>
+
+              <div class="callout-item">
+                <div class="callout-icon" aria-hidden="true">Tech</div>
+                <div>
+                  <h3>At-a-Glance Technical Profile &amp; Benchmarks</h3>
+                  <p>Highlights key flexible equipment (such as an automated heat pump) alongside clear benchmarks comparing the property against newly built (<strong>A1</strong>) and typical existing buildings (<strong>D5</strong>).</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="certificate-actions">
+              <button type="button" class="btn btn-primary" id="open-certificate-btn-secondary">
+                Zoom In on Certificate
+              </button>
+              <a href="media/mock_efc.jpg" download="Mock_Energy_Flexibility_Certificate.jpg" class="btn btn-outline">
+                Download Certificate (JPG)
+              </a>
+              <button type="button" class="btn btn-ghost" id="share-certificate-btn">
+                Copy Direct Link
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social Sharing & Downloads Section -->
+    <section id="share" class="share-section" aria-labelledby="share-heading">
+      <div class="container">
+        <div class="share-box">
+          <div class="share-copy">
+            <p class="eyebrow">Spread the Word</p>
+            <h2 id="share-heading" class="section-title-compact">Share or download these resources</h2>
+            <p>
+              Feel free to share this showcase with colleagues working on clean energy, smart buildings, local area energy planning, or electricity networks.
+            </p>
+          </div>
+
+          <div class="share-controls">
+            <div class="share-buttons" role="group" aria-label="Share this website on social media">
+              <button type="button" class="share-btn share-linkedin" data-share-platform="linkedin" data-share-scope="page">
+                <svg class="share-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M19 3A2 2 0 0 1 21 5V19A2 2 0 0 1 19 21H5A2 2 0 0 1 3 19V5A2 2 0 0 1 5 3H19M18.5 18.5V13.2A3.26 3.26 0 0 0 15.24 9.94C14.39 9.94 13.4 10.46 12.92 11.24V10.13H10.13V18.5H12.92V13.57C12.92 12.8 13.54 12.17 14.31 12.17A1.4 1.4 0 0 1 15.71 13.57V18.5H18.5M6.88 8.56A1.68 1.68 0 0 0 8.56 6.88C8.56 5.95 7.81 5.19 6.88 5.19A1.69 1.69 0 0 0 5.19 6.88C5.19 7.81 5.95 8.56 6.88 8.56M8.27 18.5V10.13H5.5V18.5H8.27Z"/>
+                </svg>
+                LinkedIn
+              </button>
+
+              <button type="button" class="share-btn share-bluesky" data-share-platform="bluesky" data-share-scope="page">
+                <svg class="share-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M12 10.8C10.8 8.4 7.6 4 5.1 2.3C2.5 0.5 1.5 0.8 0.9 1.1C0.2 1.4 0 2.6 0 3.3C0 4 0.4 9.1 0.7 10C1.5 12.9 4.5 13.9 7.2 13.5C4.2 14 1.4 15.3 3.7 19.8C7.6 23.9 9.7 18.9 12 15.4C14.3 18.9 16.1 23.7 20.3 19.8C22.6 15.3 19.8 14 16.8 13.5C19.5 13.9 22.5 12.9 23.3 10C23.6 9.1 24 4 24 3.3C24 2.6 23.8 1.4 23.1 1.1C22.5 0.8 21.5 0.5 18.9 2.3C16.4 4 13.2 8.4 12 10.8Z"/>
+                </svg>
+                Bluesky
+              </button>
+
+              <button type="button" class="share-btn share-twitter" data-share-platform="twitter" data-share-scope="page">
+                <svg class="share-icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+                  <path d="M18.244 2.25H21.552L14.325 10.51L22.827 21.75H16.17L10.956 14.933L4.99 21.75H1.68L9.41 12.915L1.254 2.25H8.08L12.793 8.481L18.244 2.25ZM17.083 19.77H18.916L7.084 4.126H5.117L17.083 19.77Z"/>
+                </svg>
+                Twitter / X
+              </button>
+
+              <button type="button" class="share-btn share-email" data-share-platform="email" data-share-scope="page">
+                <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="3" y="5" width="18" height="14" rx="2"/>
+                  <path d="M3 7L12 13L21 7" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                Email
+              </button>
+
+              <button type="button" class="share-btn share-copy" data-share-platform="copy" data-share-scope="page">
+                <svg class="share-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                  <rect x="9" y="9" width="11" height="11" rx="2"/>
+                  <path d="M5 15H4A2 2 0 0 1 2 13V4A2 2 0 0 1 4 2H13A2 2 0 0 1 15 4V5" stroke-linecap="round"/>
+                </svg>
+                Copy Link
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-brand">
+          <img src="media/UoR_logo.png" alt="University of Reading" class="footer-logo" width="337" height="123" loading="lazy">
+          <p class="footer-note">
+            Energy Flexibility Certificates: Making building demand flexibility clear and accessible for everyone.
+          </p>
+        </div>
+        <div class="footer-links">
+          <a href="#poster">Interactive Poster</a>
+          <a href="#modules">10 Modules</a>
+          <a href="#mock-certificate">Mock Certificate</a>
+          <a href="#full-report" class="js-report-link" target="_blank" rel="noopener noreferrer">Full Report</a>
+          <a href="media/efc_poster.png" download="Energy_Flexibility_Certificate_Poster.png">Download Poster</a>
+        </div>
+      </div>
+
+      <div class="footer-meta">
+        <p class="footer-copyright">
+          &copy; <span id="copyright-years" data-start-year="2026">2026</span> University of Reading
+        </p>
+        <p class="footer-contact">
+          Contact: <a href="mailto:j.ramirez-mendiola@reading.ac.uk">j.ramirez-mendiola@reading.ac.uk</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal for Individual Poster Sections & Mock Certificate -->
+  <div
+    class="lightbox-backdrop"
+    id="lightbox"
+    role="dialog"
+    aria-modal="true"
+    aria-labelledby="lightbox-title"
+    hidden
+  >
+    <div class="lightbox-dialog">
+      <!-- Modal Top Bar -->
+      <div class="lightbox-header">
+        <div class="lightbox-meta">
+          <span class="lightbox-counter" id="lightbox-counter">Section 1 of 10</span>
+          <h2 class="lightbox-title" id="lightbox-title">Section Title</h2>
+        </div>
+
+        <div class="lightbox-top-controls">
+          <div class="zoom-controls" role="group" aria-label="Image zoom controls">
+            <button type="button" class="btn-icon-pill is-active" data-zoom="1" title="Fit neatly to screen">Fit</button>
+            <button type="button" class="btn-icon-pill" data-zoom="1.65" title="Zoom in 1.65x">1.65×</button>
+            <button type="button" class="btn-icon-pill" data-zoom="2.4" title="Zoom in 2.4x">2.4×</button>
+          </div>
+
+          <button type="button" class="lightbox-close" id="lightbox-close" aria-label="Close zoomed view (Escape)">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+              <path d="M6 6L18 18M18 6L6 18" stroke-linecap="round"/>
+            </svg>
+          </button>
+        </div>
+      </div>
+
+      <!-- Modal Visual Stage -->
+      <div class="lightbox-stage-wrap">
+        <button type="button" class="lightbox-nav lightbox-prev" id="lightbox-prev" aria-label="Previous section (Left arrow)">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+            <path d="M15 18L9 12L15 6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+
+        <div class="lightbox-viewport" id="lightbox-viewport">
+          <div class="lightbox-canvas" id="lightbox-canvas">
+            <!-- Dynamically populated crisp SVG-framed view of efc1..efc10 or mock_efc.jpg -->
+          </div>
+        </div>
+
+        <button type="button" class="lightbox-nav lightbox-next" id="lightbox-next" aria-label="Next section (Right arrow)">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2.2" aria-hidden="true">
+            <path d="M9 18L15 12L9 6" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </button>
+      </div>
+
+      <!-- Accessible Text Transcript Disclosure -->
+      <details class="lightbox-transcript" id="lightbox-transcript-details">
+        <summary>Read plain-text summary &amp; transcript of this graphic</summary>
+        <div class="lightbox-transcript-body" id="lightbox-transcript-body"></div>
+      </details>
+
+      <!-- Modal Footer: Download & Deep-Link Social Sharing -->
+      <div class="lightbox-footer">
+        <div class="lightbox-share-group" aria-label="Share direct link to this item">
+          <span class="lightbox-share-label">Share this view:</span>
+          <button type="button" class="chip-share" data-share-platform="linkedin" data-share-scope="modal">LinkedIn</button>
+          <button type="button" class="chip-share" data-share-platform="bluesky" data-share-scope="modal">Bluesky</button>
+          <button type="button" class="chip-share" data-share-platform="twitter" data-share-scope="modal">Twitter / X</button>
+          <button type="button" class="chip-share" data-share-platform="email" data-share-scope="modal">Email</button>
+          <button type="button" class="chip-share" data-share-platform="copy" data-share-scope="modal">Copy Link</button>
+        </div>
+
+        <div class="lightbox-actions-right">
+          <a href="#" download class="btn btn-outline btn-sm" id="lightbox-download">
+            Download Image
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Accessible Toast Notification -->
+  <div class="toast" id="toast" role="status" aria-live="polite" hidden></div>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
