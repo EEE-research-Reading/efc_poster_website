@@ -11,7 +11,7 @@
    * displays a friendly status message.
    */
   const SITE_CONFIG = {
-    fullReportUrl: "",
+    fullReportUrl: "https://www.edrc.ac.uk/publications/demand-flexibility-certificates/",
     copyrightStartYear: 2026,
     siteTitle: "Energy Flexibility Certificates — Interactive Showcase",
     defaultShareText:
